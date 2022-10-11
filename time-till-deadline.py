@@ -1,6 +1,6 @@
 from datetime import datetime
 
-user_input = input("Enter your foal with a deadline separated by colon\n Example: learn python:10.02.2021\n")
+user_input = input("Enter your goal with a deadline separated by colon\n Example: learn python:10.02.2021\n")
 input_list = user_input.split(':')
 
 goal = input_list[0]
